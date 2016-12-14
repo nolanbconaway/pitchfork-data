@@ -2,8 +2,14 @@ import requests, time, sqlite3
 from bs4 import BeautifulSoup
 httpheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
+# configure storage
+conn = sqlite3.connect("raw.html.db")
+cur = conn.cursor()
+
+
 # enmtire pages to redo
 pages = [149,202,203,204,360,361,362,411,412,413,414,415]
+
 
 # -------- REDO SPECIFIC REVIEWS!!!
 reviews = [
