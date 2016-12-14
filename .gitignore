@@ -1,0 +1,10 @@
+.DS_Store
+readme.html
+
+# sublime text
+*.sublime-workspace
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
