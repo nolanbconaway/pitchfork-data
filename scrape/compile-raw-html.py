@@ -44,6 +44,7 @@ for dbfile in dbfiles:
 
 		artist_list = soup.find("ul", { "class" : ["artist-links", "artist-list"] })
 		artist_list = [sf(li.get_text()) for li in  artist_list.findAll('li')]
+		artist_str = ', '.join(artist_list)
 
 		author = soup.find("a", { "class" : "display-name" }).get_text()
 		author_type = soup.find("span", { "class" : "title" })
@@ -77,6 +78,7 @@ for dbfile in dbfiles:
 		#  create rows for the table
 		review_rows.append(dict(
 			reviewid = reviewid,
+			artist = artist_str,
 			title = album_title,
 			url = url,
 			score = score,

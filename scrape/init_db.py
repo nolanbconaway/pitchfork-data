@@ -8,6 +8,7 @@ dbcur = dbcon.cursor()
 # reviews contains all items that are not possibly in list form.
 # 	-- reviewid
 # 	-- album title
+#   -- Artists (as a string)
 #   -- score (float)
 #   -- author name
 #   -- author type
@@ -24,6 +25,7 @@ dbcur.execute("""DROP TABLE IF EXISTS reviews""")
 cmd = """ CREATE TABLE reviews (
 	reviewid INTEGER,
 	title TEXT,
+	artist TEXT,
 	url TEXT,
 	score REAL,
 	best_new_music INTEGER,
