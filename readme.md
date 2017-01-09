@@ -4,7 +4,7 @@ I scraped over 18000 [Pitchfork](http://pitchfork.com/) reviews, going back to J
 
 ## Notebooks:
 
-- [Link](notebooks/review-score-exploration.ipynb). An exploration of review scores.
+- [[Link]](notebooks/review-score-exploration.ipynb). An exploration of review scores.
 
 ## Some things i want to know:
 
