@@ -2,6 +2,10 @@
 
 I scraped over 18000 [Pitchfork](http://pitchfork.com/) reviews, going back to January 1999. This repository will contain my analyses!
 
+## Notebooks:
+
+- [Link](notebooks/review-score-exploration.ipynb). An exploration of review scores.
+
 ## Some things i want to know:
 
 - Are best new music reviews IID over time? what about scores?
