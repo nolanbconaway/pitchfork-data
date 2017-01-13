@@ -1,4 +1,4 @@
-# This file creates the structure final database
+# This file creates the structure of the final database
 
 # ---------- DB SCHEMA ----------
 # 
