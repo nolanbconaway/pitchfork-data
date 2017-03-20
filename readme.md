@@ -8,7 +8,7 @@ I scraped over 18,000 [Pitchfork](http://pitchfork.com/) reviews, going back to 
 - [[Link](notebooks/reviewer-development.ipynb)]. Do writers get tougher with experience? (answer: *no*.)
 - [[Link](notebooks/best-new-music-iid.ipynb)]. Is "Best New Music" sampled [IID](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)? (answer: *yes*.)
 - [[Link](notebooks/artist-development.ipynb)]. Is the first album the best? (answer: *no, but the last album is the worst*.)
-
+- - [[Link](notebooks/author-autocorrelation.ipynb)]. Are reviews autocorrelated? (answer: *yes*.)
 
 
 ## Some other things i want to know:
