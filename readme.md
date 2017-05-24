@@ -4,6 +4,7 @@ I scraped over 18,000 [Pitchfork](http://pitchfork.com/) reviews, going back to 
 
 ## Notebooks:
 
+- [[Link](notebooks/rstatistical-heaping.ipynb)]. Some evidence of statistical heaping in the review scores.
 - [[Link](notebooks/review-score-exploration.ipynb)]. An exploration of review scores.
 - [[Link](notebooks/reviewer-development.ipynb)]. Do writers get tougher with experience? (answer: *no*.)
 - [[Link](notebooks/best-new-music-iid.ipynb)]. Is "Best New Music" sampled [IID](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)? (answer: *yes*.)
